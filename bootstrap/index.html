@@ -22,7 +22,7 @@
 			.margin-bot {
 				margin-bottom: 5%;
 			}
-			h1{
+			h1 {
 				text-align: center;
 			}
 			footer {
@@ -136,57 +136,127 @@
 		</div>
 		<div class="container container-padding">
 			<h1>Form</h1>
-			<div class="mb-3">
-				<label for="formGroupExampleInput" class="form-label">first name</label>
-				<input
-					type="text"
-					class="form-control"
-					id="formGroupExampleInput"
-					placeholder="Example input placeholder"
-				/>
+			<div class="row">
+				<div class="col-4">
+					<div class="mb-3">
+						<label for="formGroupExampleInput" class="form-label">first name</label>
+						<input
+							type="text"
+							class="form-control"
+							id="formGroupExampleInput"
+							placeholder="Example input placeholder"
+						/>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="mb-3">
+						<label for="formGroupExampleInput2" class="form-label">last name</label>
+						<input
+							type="text"
+							class="form-control"
+							id="formGroupExampleInput2"
+							placeholder="Another input placeholder"
+						/>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="mb-4">
+						<label for="formGroupExampleInput2" class="form-label">email </label>
+						<input
+							type="text"
+							class="form-control"
+							id="formGroupExampleInput2"
+							placeholder="Another input placeholder"
+						/>
+					</div>
+				</div>
 			</div>
-			<div class="mb-3">
-				<label for="formGroupExampleInput2" class="form-label">last name</label>
-				<input
-					type="text"
-					class="form-control"
-					id="formGroupExampleInput2"
-					placeholder="Another input placeholder"
-				/>
+			<div class="row">
+				<div class="col-4">
+					<div class="mb-3">
+						<label for="formGroupExampleInput2" class="form-label">phone number</label>
+						<input
+							type="text"
+							class="form-control"
+							id="formGroupExampleInput2"
+							placeholder="Another input placeholder"
+						/>
+					</div>
+				</div>
+				<div class="col-4">
+					<label for="options" class="form-label">choose your option</label>
+					<select
+						class="form-select margin-bot"
+						id="options"
+						aria-label="Default select example"
+					>
+						<option selected>zero</option>
+						<option value="1">One</option>
+						<option value="2">Two</option>
+						<option value="3">Three</option>
+					</select>
+				</div>
+				<div class="col-4">
+					<label for="comments" class="form-label">Give a comment</label>
+					<div class="form-floating">
+						<textarea
+							class="form-control"
+							placeholder="Leave a comment here"
+							id="floatingTextarea2"
+							style="height: 100px"
+						></textarea>
+						<label for="floatingTextarea2">Comments</label>
+					</div>
+				</div>
 			</div>
-			<div class="mb-3">
-				<label for="formGroupExampleInput2" class="form-label">email
-				</label>
-				<input
-					type="text"
-					class="form-control"
-					id="formGroupExampleInput2"
-					placeholder="Another input placeholder"
-				/>
-			</div>
-			<div class="mb-3">
-				<label for="formGroupExampleInput2" class="form-label">phone number</label>
-				<input
-					type="text"
-					class="form-control"
-					id="formGroupExampleInput2"
-					placeholder="Another input placeholder"
-				/>
-			</div>
-			<select class="form-select margin-bot" aria-label="Default select example">
-				<option selected>choose your option</option>
-				<option value="1">One</option>
-				<option value="2">Two</option>
-				<option value="3">Three</option>
-			</select>
-			<div class="form-floating">
-				<textarea
-					class="form-control"
-					placeholder="Leave a comment here"
-					id="floatingTextarea2"
-					style="height: 500px"
-				></textarea>
-				<label for="floatingTextarea2">Comments</label>
+			<div class="row">
+				<div class="col-4">
+					<label for="reason" class="form-label">what category is your question about</label>
+					<div class="form-check">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							value=""
+							id="flexCheckDefault"
+						/>
+						<label class="form-check-label" for="flexCheckDefault">
+							technical
+						</label>
+					</div>
+					<div class="form-check">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							value=""
+							id="check2"
+						/>
+						<label class="form-check-label" for="check2">
+							membership
+						</label>
+					</div>
+					<div class="form-check">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							value=""
+							id="check3"
+						/>
+						<label class="form-check-label" for="check3">
+							random question
+						</label>
+					</div>
+					<div class="form-check">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							value=""
+							id="check4"
+						/>
+						<label class="form-check-label" for="check4">
+							review
+						</label>
+					</div>
+				</div>
 			</div>
 		</div>
 		<footer>
