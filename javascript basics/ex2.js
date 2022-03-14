@@ -19,7 +19,7 @@ class Student {
   students.push(new Student("Sem", "Radoes", 30));
   
   const printStudentInformation = students.forEach(student => { 
-    console.log(`Hello, my name is ${student.firstName} ${student.lastName}!`)
+    console.log(student.greeting());
 });
   
   
